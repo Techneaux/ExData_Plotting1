@@ -24,5 +24,6 @@ par(mfrow=c(2,2))
                 lines(data_sub$TD,data_sub$Sub_metering_3,col="Blue")
                 legend("topright",bty="n",lwd=1,col=c("Black","Red","Blue"),legend=c("Sub_metering_1","Sub_metering_2", "Sub_metering_3"))
 
-plot(data_sub$TD,data_sub$Global_reactive_power,type="l", ylab="Global_reactive_power",xlab="datetime")
+        plot(data_sub$TD,data_sub$Global_reactive_power,type="l", ylab="Global_reactive_power",xlab="datetime")
+
 dev.off()
